@@ -1,0 +1,20 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Smart Budget Planner</title><link rel="manifest" href="manifest.json"><meta name="theme-color" content="#143c32">
+<link rel="icon" href="icons/icon-192.png"><link rel="stylesheet" href="style.css"></head><body>
+<header><h1 data-i="title">Smart Budget Planner</h1>
+<select id="lang" aria-label="Language"><option value="en">English</option><option value="es">Español</option><option value="ar">العربية</option></select></header>
+<main>
+<div class="card"><p data-i="intro"></p>
+<label class="btn"><span data-i="take"></span><input id="file" type="file" accept="image/*" capture="environment" hidden></label>
+<button class="btn sec" id="demo" data-i="demo"></button>
+<p class="small" data-i="accuracy"></p>
+<div id="status" class="status"></div><canvas id="preview" hidden></canvas></div>
+<div class="card" id="reviewCard" hidden><h2 data-i="review"></h2><p class="legend small"><span>123</span> = <span data-i="legend"></span></p>
+<div id="meta" class="meta"></div><div style="overflow-x:auto"><table id="review"></table></div>
+<button class="btn" id="save" data-i="save"></button></div>
+<div class="card"><h2 data-i="scans"></h2><ul id="scans"></ul>
+<button class="btn" id="export" data-i="export"></button><button class="btn danger" id="clear" data-i="clear"></button>
+<p class="small" data-i="privacy"></p></div>
+</main>
+<script src="i18n.js"></script><script src="sbp-core.js"></script><script src="vendor/xlsx.full.min.js"></script><script src="app.js"></script>
+</body></html>

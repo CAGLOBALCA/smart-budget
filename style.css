@@ -1,0 +1,8 @@
+*{box-sizing:border-box}body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Noto Sans Arabic",sans-serif;margin:0;background:#f4f6f5;color:#17221f}
+header{background:#143c32;color:#fff;padding:12px 16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap}header h1{font-size:18px;margin:0;flex:1}
+select,button,input{font:inherit}main{max-width:980px;margin:auto;padding:12px}.card{background:#fff;border-radius:10px;padding:14px;margin:12px 0;box-shadow:0 1px 3px #0002}
+.btn{background:#1f7a5c;color:#fff;border:0;border-radius:8px;padding:10px 14px;cursor:pointer;margin:4px 4px 4px 0}.btn.sec{background:#e3ebe8;color:#143c32}.btn.danger{background:#b3402e}
+#preview{max-width:100%;max-height:340px;border:1px solid #ccc;border-radius:6px}.status{margin:8px 0;font-weight:600}.err{color:#b3402e}.ok{color:#1f7a5c}
+table{border-collapse:collapse;width:100%;font-size:14px}th,td{border-bottom:1px solid #e4e4e4;padding:4px 6px;text-align:start}td input[type=text]{width:7.5em;padding:4px;border:1px solid #bbb;border-radius:4px}
+td input.low{background:#fff3b0;border-color:#d9a400}.legend span{background:#fff3b0;padding:0 6px;border:1px solid #d9a400;border-radius:3px}.small{font-size:12px;color:#556}
+.meta input{width:5em;padding:4px}ul#scans{padding-inline-start:18px}

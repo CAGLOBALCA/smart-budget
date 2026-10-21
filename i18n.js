@@ -1,0 +1,23 @@
+const I18N = {
+ en: { title: "Smart Budget Planner", intro: "Take a photo of a planner page (all 4 black corner squares visible). Everything is processed on this device — no account, no upload.",
+  take: "Take photo / choose image", demo: "Try a demo page", reading: "Reading page…", fail_markers: "Couldn't find the 4 corner squares. Retake the photo flat, well lit, with all corners visible.",
+  fail_pageid: "Corners found but the page code is unreadable. Make sure the bottom code strip is visible and in focus.", read_ok: "Page read: {name}. Please review — yellow cells are uncertain.",
+  review: "Review & correct", legend: "uncertain value – please check", month: "Month", year: "Year", week: "Week", save: "Save to this device", saved: "Saved.",
+  scans: "Saved pages", none: "No pages saved yet.", export: "Export Excel (.xlsx)", clear: "Delete all data", confirm_clear: "Delete all saved pages from this device?",
+  privacy: "Your data is stored only in this browser (localStorage). Clearing browser data deletes it — export regularly.", del: "Delete",
+  accuracy: "Handwriting recognition is automatic but not perfect (≈95% per digit in our tests). Always check the numbers before saving." },
+ es: { title: "Smart Budget Planner", intro: "Haz una foto de una página del cuaderno (con los 4 cuadrados negros de las esquinas visibles). Todo se procesa en este dispositivo: sin cuenta y sin subir nada.",
+  take: "Hacer foto / elegir imagen", demo: "Probar con una página de ejemplo", reading: "Leyendo la página…", fail_markers: "No se encuentran los 4 cuadrados de las esquinas. Repite la foto con la página plana, buena luz y todas las esquinas visibles.",
+  fail_pageid: "Se encontraron las esquinas pero no el código de página. Asegúrate de que la franja de código inferior se vea nítida.", read_ok: "Página leída: {name}. Revísala: las celdas amarillas son dudosas.",
+  review: "Revisar y corregir", legend: "valor dudoso – compruébalo", month: "Mes", year: "Año", week: "Semana", save: "Guardar en este dispositivo", saved: "Guardado.",
+  scans: "Páginas guardadas", none: "Aún no hay páginas guardadas.", export: "Exportar Excel (.xlsx)", clear: "Borrar todos los datos", confirm_clear: "¿Borrar todas las páginas guardadas de este dispositivo?",
+  privacy: "Tus datos se guardan solo en este navegador (localStorage). Si borras los datos del navegador se pierden: exporta a menudo.", del: "Borrar",
+  accuracy: "El reconocimiento de escritura es automático pero no perfecto (≈95 % por dígito en nuestras pruebas). Comprueba siempre los números antes de guardar." },
+ ar: { title: "مخطط الميزانية الذكي", intro: "التقط صورة لصفحة من الدفتر (مع ظهور المربعات السوداء الأربعة في الزوايا). تتم المعالجة بالكامل على هذا الجهاز — بدون حساب وبدون رفع.",
+  take: "التقاط صورة / اختيار صورة", demo: "جرّب صفحة نموذجية", reading: "جارٍ قراءة الصفحة…", fail_markers: "تعذر العثور على المربعات الأربعة. أعد التصوير والصفحة مسطحة وبإضاءة جيدة وجميع الزوايا ظاهرة.",
+  fail_pageid: "تم العثور على الزوايا لكن رمز الصفحة غير مقروء. تأكد من وضوح شريط الرمز في الأسفل.", read_ok: "تمت قراءة الصفحة: {name}. يرجى المراجعة — الخانات الصفراء غير مؤكدة.",
+  review: "مراجعة وتصحيح", legend: "قيمة غير مؤكدة – يرجى التحقق", month: "الشهر", year: "السنة", week: "الأسبوع", save: "حفظ على هذا الجهاز", saved: "تم الحفظ.",
+  scans: "الصفحات المحفوظة", none: "لا توجد صفحات محفوظة بعد.", export: "تصدير إلى Excel (.xlsx)", clear: "حذف كل البيانات", confirm_clear: "حذف جميع الصفحات المحفوظة من هذا الجهاز؟",
+  privacy: "تُحفظ بياناتك في هذا المتصفح فقط (localStorage). مسح بيانات المتصفح يحذفها — قم بالتصدير بانتظام.", del: "حذف",
+  accuracy: "التعرف على الخط اليدوي تلقائي لكنه ليس مثاليًا (≈95٪ لكل رقم في اختباراتنا). تحقّق دائمًا من الأرقام قبل الحفظ. ملاحظة: اكتب الأرقام الغربية 0-9." }
+};
